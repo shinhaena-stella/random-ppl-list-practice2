@@ -19,7 +19,6 @@ const PeopleList = ({ list, setList, filterKey, page }) => {
         {filteredList.map((person) => (
           <>
             <PeopleCard
-              className="people-card"
               key={`${person.phone}${person.name.last}`}
               id={person.email}
               name={person.name}
